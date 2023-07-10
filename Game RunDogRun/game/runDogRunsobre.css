@@ -1,0 +1,35 @@
+#menu{
+    display:flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    font-size: 30px;
+    background-color: rgb(221, 115, 173);
+}
+body{
+    background-color: rgb(172, 194, 228);
+}
+#titulosobre{
+    display:flex;
+    align-content:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    font-size:40px;
+    font-family: "Comic Sans MS";
+    background-image: linear-gradient(to bottom, purple,steelblue,cyan);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+#corpo2{
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: rgb(151, 54, 151);
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(172, 194, 228);
+}
+#menu{
+    display:flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    font-size: 30px;
+    background-color: rgb(221, 115, 173);
+}
+
+#canvas{
+    background: linear-gradient( to right, rgba(148, 214, 216, 0.274), lightblue, rgb(119, 191, 224), rgb(0, 40, 56)); 
+    background-size: 400%, 400%;
+    animation: animado 30s infinite ease-in-out;
+    border: 1px solid #000;
+}
+@keyframes animado {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: black;
+    flex-wrap: wrap;
+}
+.titulo{
+    display:flex;
+    align-content:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    font-size:32px;
+    font-family: "Comic Sans MS";
+    background-image: linear-gradient(to bottom, purple,steelblue,cyan);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+#regra{
+    display:flex;
+    align-content:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    font-size:28px;
+    font-family: "Comic Sans MS";
+    color: rgb(151, 54, 151);
+}
+#regras{
+    display:flex;
+    align-content:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    font-size: 22px;
+    font-family: "Comic Sans MS";
+    color: rgb(151, 54, 151);
+}
+
+#botaoinicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: "Comic Sans MS";
+    color: purple;
+    background-color: rgba(0, 0, 0, 0); 
+    cursor: pointer;
+}
+
